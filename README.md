@@ -15,9 +15,23 @@ Minecraft 数据包 ”进度淘汰赛“
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+游戏版本
+1.19
+
+提示
+全部进入游戏后执行 /reload 以获取操作书
+
+命名空间ID
+knockout_jd
+
+记分板
+time
+r
+SCORE
+team
+compare
+min
+s
 
 #### 参与贡献
 
