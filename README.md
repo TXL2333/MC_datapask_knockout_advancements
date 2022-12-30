@@ -3,7 +3,7 @@
 #### 介绍
 Minecraft 数据包 ”进度淘汰赛“
 ”knockout advancements“
-
+MC百科：https://www.mcmod.cn/class/8599.html
 
 #### 安装教程
 
@@ -15,7 +15,7 @@ https://minecraft.fandom.com/zh/wiki/%E6%95%99%E7%A8%8B/%E5%AE%89%E8%A3%85%E6%95
 1.19
 
 提示
-全部进入游戏后执行 /reload 以获取操作书
+所有玩家进入游戏后执行 /reload 以获取操作书
 
 命名空间ID
 knockout_jd
