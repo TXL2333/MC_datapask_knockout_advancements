@@ -27,4 +27,5 @@ SCORE
 team
 compare
 min
+60
 s
