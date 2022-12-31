@@ -11,12 +11,12 @@ execute as @r[team=dark_gray,tag=out] run title @a title [{"text": "灰-","bold"
 execute as @r[team=gold,tag=out] run title @a title [{"text": "金-","bold":true,"color": "gold"},{"text": "出局","bold": true,"color": "yellow"}]
 execute as @r[team=light_purple,tag=out] run title @a title [{"text": "粉-","bold":true,"color": "light_purple"},{"text": "出局","bold": true,"color": "yellow"}]
 #--------------------------------------------------------------------------------------
-tellraw @a [{"text": "=============第","color": "yellow","bold": true},{"score":{"name": "#i","objective": "Round"},"bold": true,"color": "yellow"},{"text": "轮结束=============","color": "yellow","bold":true}]
-execute as @r[team=dark_aqua,tag=out] run tellraw @a [{"text": "蓝-","bold":true,"color": "dark_aqua"},{"text": "出局 | 得分","bold": true,"color": "yellow"},{"score":{"name":"#dark_aqua","objective": "sum","bold": true,"color": "yellow"}}]
-execute as @r[team=red,tag=out] run tellraw @a [{"text": "红-","bold":true,"color": "red"},{"text": "出局 | 得分：","bold": true,"color": "yellow"},{"score":{"name":"#red","objective": "sum","bold": true,"color": "yellow"}}]
-execute as @r[team=dark_gray,tag=out] run tellraw @a [{"text": "灰-","bold":true,"color": "dark_gray"},{"text": "出局 | 得分：","bold": true,"color": "yellow"},{"score":{"name":"#dark_gray","objective": "sum","bold": true,"color": "yellow"}}]
-execute as @r[team=gold,tag=out] run tellraw @a [{"text": "金-","bold":true,"color": "gold"},{"text": "出局 | 得分：","bold": true,"color": "yellow"},{"score":{"name":"#gold","objective": "sum","bold": true,"color": "yellow"}}]
-execute as @r[team=light_purple,tag=out] run tellraw @a [{"text": "粉-","bold":true,"color": "light_purple"},{"text": "出局 | 得分：","bold": true,"color": "yellow"},{"score":{"name":"#light_purple","objective": "sum","bold": true,"color": "yellow"}}]
+tellraw @a [{"text": "=============第","color": "yellow","bold": true},{"score":{"name": "#i","objective": "Round"},"bold": true,"color": "dark_aqua"},{"text": "轮结束=============","color": "yellow","bold":true}]
+execute as @r[team=dark_aqua,tag=out] run tellraw @a [{"text": "蓝-","bold":true,"color": "dark_aqua"},{"text": "出局 | 得分","bold": true,"color": "yellow"},{"score":{"name":"#dark_aqua","objective": "r","bold": true,"color": "dark_aqua"}}]
+execute as @r[team=red,tag=out] run tellraw @a [{"text": "红-","bold":true,"color": "red"},{"text": "出局 | 得分：","bold": true,"color": "yellow"},{"score":{"name":"#red","objective": "r","bold": true,"color": "dark_aqua"}}]
+execute as @r[team=dark_gray,tag=out] run tellraw @a [{"text": "灰-","bold":true,"color": "dark_gray"},{"text": "出局 | 得分：","bold": true,"color": "yellow"},{"score":{"name":"#dark_gray","objective": "r","bold": true,"color": "dark_aqua"}}]
+execute as @r[team=gold,tag=out] run tellraw @a [{"text": "金-","bold":true,"color": "gold"},{"text": "出局 | 得分：","bold": true,"color": "yellow"},{"score":{"name":"#gold","objective": "r","bold": true,"color": "dark_aqua"}}]
+execute as @r[team=light_purple,tag=out] run tellraw @a [{"text": "粉-","bold":true,"color": "light_purple"},{"text": "出局 | 得分：","bold": true,"color": "yellow"},{"score":{"name":"#light_purple","objective": "r","bold": true,"color": "dark_aqua"}}]
 team leave @a[tag=out]
 scoreboard players operation @a r = @a SCORE
 scoreboard objectives remove SCORE
@@ -24,7 +24,7 @@ scoreboard objectives add SCORE dummy {"text": "得分","bold": true,"color": "d
 scoreboard players operation @a[team=!] SCORE = @a r
 scoreboard objectives setdisplay sidebar SCORE
 gamemode spectator @a[tag=out]
-tellraw @a[tag=out,tag=!single_player] {"text": "=========【观战TP】=========","color": "yellow","bold": true,"clickEvent": {"action": "run_command","value": "/tp @r[tag=out]"}}
+tellraw @a[tag=out,tag=!single_player] {"text": "---------------【观战TP】---------------","color": "yellow","bold": true,"clickEvent": {"action": "run_command","value": "/tp @r[tag=out]"}}
 tellraw @a {"text": "==============================================","bold": true,"color": "yellow"}
 scoreboard objectives remove team
 scoreboard objectives add team dummy

@@ -25,11 +25,11 @@ execute as @s[team= light_purple] run advancement grant @a[team= light_purple] o
 scoreboard objectives remove r
 tag @a[tag=single_player] remove single_player
 tellraw @s [{"text": "=================== 游戏结束 ===================","bold": true,"color": "yellow"}]
-execute as @s[team=dark_aqua] run tellraw @a [{"text": "蓝-","bold":true,"color": "dark_aqua"},{"text": "解放末地！| 得分","bold": true,"color": "yellow"},{"score":{"name":"#dark_aqua","objective": "sum","bold": true,"color": "yellow"}}]
-execute as @s[team=red] run tellraw @a [{"text": "红-","bold":true,"color": "red"},{"text": "解放末地！| 得分：","bold": true,"color": "yellow"},{"score":{"name":"#red","objective": "sum","bold": true,"color": "yellow"}}]
-execute as @s[team=dark_gray] run tellraw @a [{"text": "灰-","bold":true,"color": "dark_gray"},{"text": "解放末地！| 得分：","bold": true,"color": "yellow"},{"score":{"name":"#dark_gray","objective": "sum","bold": true,"color": "yellow"}}]
-execute as @s[team=gold] run tellraw @a [{"text": "金-","bold":true,"color": "gold"},{"text": "解放末地！| 得分：","bold": true,"color": "yellow"},{"score":{"name":"#gold","objective": "sum","bold": true,"color": "yellow"}}]
-execute as @s[team=light_purple] run tellraw @a [{"text": "粉-","bold":true,"color": "light_purple"},{"text": "解放末地！| 得分：","bold": true,"color": "yellow"},{"score":{"name":"#light_purple","objective": "sum","bold": true,"color": "yellow"}}]
+execute as @s[team=dark_aqua] run tellraw @a [{"text": "蓝-","bold":true,"color": "dark_aqua"},{"text": "解放末地！| 得分","bold": true,"color": "yellow"},{"score":{"name":"#dark_aqua","objective": "sum","bold": true,"color": "dark_aqua"}}]
+execute as @s[team=red] run tellraw @a [{"text": "红-","bold":true,"color": "red"},{"text": "解放末地！| 得分：","bold": true,"color": "yellow"},{"score":{"name":"#red","objective": "sum","bold": true,"color": "dark_aqua"}}]
+execute as @s[team=dark_gray] run tellraw @a [{"text": "灰-","bold":true,"color": "dark_gray"},{"text": "解放末地！| 得分：","bold": true,"color": "yellow"},{"score":{"name":"#dark_gray","objective": "sum","bold": true,"color": "dark_aqua"}}]
+execute as @s[team=gold] run tellraw @a [{"text": "金-","bold":true,"color": "gold"},{"text": "解放末地！| 得分：","bold": true,"color": "yellow"},{"score":{"name":"#gold","objective": "sum","bold": true,"color": "dark_aqua"}}]
+execute as @s[team=light_purple] run tellraw @a [{"text": "粉-","bold":true,"color": "light_purple"},{"text": "解放末地！| 得分：","bold": true,"color": "yellow"},{"score":{"name":"#light_purple","objective": "sum","bold": true,"color": "dark_aqua"}}]
 tellraw @a {"text":"---------------------------------------------------","color": "yellow"}
 tellraw @a [{"text":"▶【 重载数据包 】","clickEvent": {"action":"run_command","value":"/function knockout_jd:root/reload"},"bold": true,"color": "yellow"}]
 tellraw @a [{"text": "==============================================","bold": true,"color": "yellow"}]
