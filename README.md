@@ -9,9 +9,7 @@ Minecraft 数据包 ”进度淘汰赛 knockout advancements“.
 命名空间ID：knockout_jd;
 
 #### 安装教程
-
-https://minecraft.fandom.com/zh/wiki/%E6%95%99%E7%A8%8B/%E5%AE%89%E8%A3%85%E6%95%B0%E6%8D%AE%E5%8C%85
-
+<a href="https://minecraft.fandom.com/zh/wiki/%E6%95%99%E7%A8%8B/%E5%AE%89%E8%A3%85%E6%95%B0%E6%8D%AE%E5%8C%85"><img src="https://patchwiki.biligame.com/images/mc/thumb/1/1c/quev068zko0pdpfhw1udz4ccsbx087u.gif/150px-Compass.gif" alt="数据包安装教程"></a>
 #### 使用说明
 
 所有玩家进入游戏后执行 /reload 以获取操作书.
