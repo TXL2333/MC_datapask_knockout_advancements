@@ -1,4 +1,5 @@
-<span style="background-image:url(https://patchwiki.biligame.com/images/mc/5/5e/i593bjhunaazt65nboy7dlrzdoe8mhb.png?format=original);background-position:-0px -144px;height:48px;width:84px"></span>
+<p align="center"><img src=https://patchwiki.biligame.com/images/mc/4/42/7czfrexl0f9i1w49q9uh7o90j07dmt2.png?format=original background-position:-517px -94px;background-size:1128px auto;height:47px;width:47px"></p>
+
 <h1 align="center">MC数据包 进度淘汰赛  <br>
 
 #### 介绍
