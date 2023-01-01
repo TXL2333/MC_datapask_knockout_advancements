@@ -15,5 +15,4 @@ https://minecraft.fandom.com/zh/wiki/%E6%95%99%E7%A8%8B/%E5%AE%89%E8%A3%85%E6%95
 #### 使用说明
 
 所有玩家进入游戏后执行 /reload 以获取操作书.
-
-	<a href="https://www.mcmod.cn/class/8599.html"><img src="https://patchwiki.biligame.com/images/mc/6/6a/0erh9drxu99oxgl0khqn5c3e0hb29c1.gif" alt="MC百科"></a>
+<a href="https://www.mcmod.cn/class/8599.html"><img src="https://patchwiki.biligame.com/images/mc/6/6a/0erh9drxu99oxgl0khqn5c3e0hb29c1.gif" alt="MC百科"></a>
