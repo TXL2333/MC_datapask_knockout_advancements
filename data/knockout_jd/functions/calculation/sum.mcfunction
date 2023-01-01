@@ -14,11 +14,13 @@ scoreboard players operation #gold r += #gold sum
 scoreboard players operation #light_purple r += #light_purple sum
 
 #总和 ---> sum
+tellraw @a {"text": "----------------------结算----------------------","bold": true,"color": "dark_gray"}
 execute if score #red team matches 1.. run tellraw @a [{"text":"red:","color":"red"},{"score":{"objective":"sum","name":"#red"},"bold": true}]
 execute if score #dark_aqua team matches 1.. run tellraw @a [{"text":"dark_aqua:","color":"dark_aqua"},{"score":{"objective":"sum","name":"#dark_aqua"},"bold": true}]
 execute if score #gold team matches 1.. run tellraw @a [{"text":"gold:","color":"gold"},{"score":{"objective":"sum","name":"#gold"},"bold": true}]
 execute if score #light_purple team matches 1.. run tellraw @a [{"text":"light_purple:","color":"light_purple"},{"score":{"objective":"sum","name":"#light_purple"},"bold": true}]
 execute if score #dark_gray team matches 1.. run tellraw @a [{"text":"dark_gray:","color":"dark_gray"},{"score":{"objective":"sum","name":"#dark_gray"},"bold": true}]
-say 结算中.....
+tellraw @a {"text": "------------------------------------------------","bold": true,"color": "dark_gray"}
+
 schedule function knockout_jd:calculation/compare 1s
 execute as @r[tag=single_player] run function knockout_jd:calculation/single_player
