@@ -5,7 +5,7 @@
 #### 介绍
 Minecraft 数据包 ”进度淘汰赛 knockout advancements“.
 该数据包是一个通过达成进度（成就）获取记分的多人淘汰制小游戏。
-支持的Minecraft JE游戏版本：1.19.x;
+支持的Minecraft JE游戏版本：1.19.x
 命名空间ID：knockout_jd;
 
 #### 安装教程
