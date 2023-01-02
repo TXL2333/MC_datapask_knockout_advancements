@@ -2,9 +2,6 @@
 
 <h1 align="center">MC数据包 进度淘汰赛  <br>
 
-<p align="center">[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/TXL2333/MC_datapask_knockout_advancements/blob/master/LICENSE) <br>
- 
- 
 #### 介绍
 Minecraft 数据包 ”进度淘汰赛 knockout advancements“.
 该数据包是一个通过达成进度（成就）获取记分的多人淘汰制小游戏。
