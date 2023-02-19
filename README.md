@@ -21,4 +21,4 @@ Minecraft 数据包 ”进度淘汰赛 knockout advancements“.
 3.  提交代码
 4.  新建 Pull Request
 
- <span style="font-size":1em;font-style:italic"><a href="https://minecraft.fandom.com/zh/wiki/Minecraft_Wiki">部分图片引用于中文Minecraft Wiki！</a></span>
+ <span style="font-size":1em;font-style:italic;"><a href="https://minecraft.fandom.com/zh/wiki/Minecraft_Wiki">部分图片引用于中文Minecraft Wiki！</a></span>
