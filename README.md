@@ -16,9 +16,8 @@ Minecraft 数据包 ”进度淘汰赛 knockout advancements“.
 <p align="center"><a href="https://www.mcmod.cn/class/8599.html"><img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest/scale-to-width-down/150?cb=20200607054225" alt="MC百科链接"></a>
 
 #### 参与贡献
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+1.  新建 Feat_xxx 分支
+2.  提交代码
+3.  新建 Pull Request
 
- <span><a href="https://minecraft.fandom.com/zh/wiki/Minecraft_Wiki"><i>部分图片引用于中文Minecraft Wiki！</i></a></span>
+ <span><a href="https://minecraft.fandom.com/zh/wiki/Minecraft_Wiki"><i>图片均引用 来自中文Minecraft Wiki！</i></a></span>
