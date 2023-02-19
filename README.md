@@ -14,3 +14,9 @@ Minecraft 数据包 ”进度淘汰赛 knockout advancements“.
 #### 使用说明
 所有玩家进入游戏后执行 /reload 以获取操作书.
 <p align="center"><a href="https://www.mcmod.cn/class/8599.html"><img src="https://patchwiki.biligame.com/images/mc/6/6a/0erh9drxu99oxgl0khqn5c3e0hb29c1.gif" alt="MC百科"></a>
+
+#### 参与贡献
+1.  Fork 本仓库
+2.  新建 Feat_xxx 分支
+3.  提交代码
+4.  新建 Pull Request
