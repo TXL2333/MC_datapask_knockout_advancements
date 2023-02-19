@@ -1,6 +1,6 @@
 <p align="center"><img src=https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/4/42/AchievementSprite.png/revision/latest?cb=20200701031951&format=original></p>
 
-<h1 align="center">MC数据包 进度淘汰赛  <b
+<h1 align="center">MC数据包 进度淘汰赛  <br>
 
 #### 介绍
 Minecraft 数据包 ”进度淘汰赛 knockout advancements“.
