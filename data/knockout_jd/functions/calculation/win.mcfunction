@@ -24,6 +24,6 @@ tellraw @a {"text":"---------------------------------------------------","color"
 tellraw @a [{"text":"▶【 重载数据包 】","clickEvent": {"action":"run_command","value":"/function knockout_jd:root/reload"},"bold": true,"color": "yellow"}]
 tellraw @a [{"text": "==============================================","bold": true,"color": "yellow"}]
 bossbar remove time
-#                                                                              v1.2
+#                                                                              v1.3
 #                                                                    ———2333333333333333333
 #==========================================================================================
