@@ -1,4 +1,5 @@
 {
+  "parent":"knockout_jd:root",
   "criteria": {
     "entered_nether": {
       "conditions": {
@@ -9,7 +10,6 @@
   },
   "display": {
     "announce_to_chat": false,
-    "background": "minecraft:textures/gui/advancements/backgrounds/nether.png",
     "description": {
       "translate": "advancements.nether.root.description"
     },

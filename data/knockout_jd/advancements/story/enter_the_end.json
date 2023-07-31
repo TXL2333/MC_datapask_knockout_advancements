@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:story/follow_ender_eye",
+  "parent": "knockout_jd:story/follow_ender_eye",
   "criteria": {
     "entered_end": {
       "conditions": {
@@ -9,7 +9,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.story.enter_the_end.description"
     },
@@ -18,7 +17,7 @@
     "icon": {
       "item": "minecraft:end_stone"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.story.enter_the_end.title"
     }

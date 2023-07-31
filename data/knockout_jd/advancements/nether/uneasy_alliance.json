@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:nether/return_to_sender",
+  "parent": "knockout_jd:nether/return_to_sender",
   "criteria": {
     "killed_ghast": {
       "conditions": {
@@ -20,7 +20,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.nether.uneasy_alliance.description"
     },
@@ -29,7 +28,7 @@
     "icon": {
       "item": "minecraft:ghast_tear"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.nether.uneasy_alliance.title"
     }

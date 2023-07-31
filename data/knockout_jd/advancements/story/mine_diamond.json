@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:story/iron_tools",
+  "parent": "knockout_jd:story/iron_tools",
   "criteria": {
     "diamond": {
       "conditions": {
@@ -15,7 +15,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.story.mine_diamond.description"
     },
@@ -24,7 +23,7 @@
     "icon": {
       "item": "minecraft:diamond"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.story.mine_diamond.title"
     }

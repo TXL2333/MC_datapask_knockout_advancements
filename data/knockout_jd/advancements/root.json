@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "title": "root",
+        "description": "",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": true,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+        "frame": "task"
+    },
+    "criteria": {
+        "0":{
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

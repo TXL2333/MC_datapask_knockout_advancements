@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:nether/get_wither_skull",
+  "parent": "knockout_jd:nether/get_wither_skull",
   "criteria": {
     "summoned": {
       "conditions": {
@@ -17,7 +17,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.nether.summon_wither.description"
     },
@@ -26,7 +25,7 @@
     "icon": {
       "item": "minecraft:nether_star"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.nether.summon_wither.title"
     }

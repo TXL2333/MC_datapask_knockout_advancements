@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:nether/ride_strider",
+  "parent": "knockout_jd:nether/ride_strider",
   "criteria": {
     "minecraft:basalt_deltas": {
       "conditions": {
@@ -83,7 +83,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.nether.explore_nether.description"
     },
@@ -93,7 +92,7 @@
       "item": "minecraft:netherite_boots",
       "nbt": "{Damage:0}"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.nether.explore_nether.title"
     }

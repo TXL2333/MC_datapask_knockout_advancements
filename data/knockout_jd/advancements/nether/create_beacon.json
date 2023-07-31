@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:nether/summon_wither",
+  "parent": "knockout_jd:nether/summon_wither",
   "criteria": {
     "beacon": {
       "conditions": {
@@ -11,7 +11,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.nether.create_beacon.description"
     },
@@ -20,7 +19,7 @@
     "icon": {
       "item": "minecraft:beacon"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.nether.create_beacon.title"
     }

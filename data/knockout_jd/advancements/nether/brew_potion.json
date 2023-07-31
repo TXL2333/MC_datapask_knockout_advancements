@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:nether/obtain_blaze_rod",
+  "parent": "knockout_jd:nether/obtain_blaze_rod",
   "criteria": {
     "potion": {
       "conditions": {},
@@ -7,7 +7,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.nether.brew_potion.description"
     },
@@ -16,7 +15,7 @@
     "icon": {
       "item": "minecraft:potion"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.nether.brew_potion.title"
     }

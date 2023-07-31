@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:nether/ride_strider",
+  "parent": "knockout_jd:nether/ride_strider",
   "criteria": {
     "ride_entity_distance": {
       "conditions": {
@@ -27,7 +27,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.nether.ride_strider_in_overworld_lava.description"
     },
@@ -37,7 +36,7 @@
       "item": "minecraft:warped_fungus_on_a_stick",
       "nbt": "{Damage:0}"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.nether.ride_strider_in_overworld_lava.title"
     }

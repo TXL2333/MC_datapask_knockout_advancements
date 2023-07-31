@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:story/mine_diamond",
+  "parent": "knockout_jd:story/mine_diamond",
   "criteria": {
     "enchanted_item": {
       "conditions": {},
@@ -7,7 +7,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.story.enchant_item.description"
     },
@@ -16,7 +15,7 @@
     "icon": {
       "item": "minecraft:enchanted_book"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.story.enchant_item.title"
     }

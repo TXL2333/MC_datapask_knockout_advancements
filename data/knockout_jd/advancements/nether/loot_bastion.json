@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:nether/find_bastion",
+  "parent": "knockout_jd:nether/find_bastion",
   "criteria": {
     "loot_bastion_bridge": {
       "conditions": {
@@ -27,7 +27,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.nether.loot_bastion.description"
     },
@@ -36,7 +35,7 @@
     "icon": {
       "item": "minecraft:chest"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.nether.loot_bastion.title"
     }

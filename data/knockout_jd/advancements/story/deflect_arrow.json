@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:story/obtain_armor",
+  "parent": "knockout_jd:story/obtain_armor",
   "criteria": {
     "deflected_projectile": {
       "conditions": {
@@ -14,7 +14,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.story.deflect_arrow.description"
     },
@@ -24,7 +23,7 @@
       "item": "minecraft:shield",
       "nbt": "{Damage:0}"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.story.deflect_arrow.title"
     }

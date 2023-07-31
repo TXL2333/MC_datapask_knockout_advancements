@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:nether/root",
+  "parent": "knockout_jd:nether/root",
   "criteria": {
     "bastion": {
       "conditions": {
@@ -19,7 +19,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.nether.find_bastion.description"
     },
@@ -28,7 +27,7 @@
     "icon": {
       "item": "minecraft:polished_blackstone_bricks"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.nether.find_bastion.title"
     }

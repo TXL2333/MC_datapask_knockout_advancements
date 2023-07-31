@@ -1,4 +1,5 @@
-{
+{   
+  "parent":"knockout_jd:root",
   "criteria": {
     "crafting_table": {
       "conditions": {
@@ -15,8 +16,7 @@
   },
   "display": {
     "announce_to_chat": false,
-    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
-    "description": {
+ "description": {
       "translate": "advancements.story.root.description"
     },
     "frame": "task",

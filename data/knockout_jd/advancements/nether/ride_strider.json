@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:nether/root",
+  "parent": "knockout_jd:nether/root",
   "criteria": {
     "used_warped_fungus_on_a_stick": {
       "conditions": {
@@ -24,7 +24,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.nether.ride_strider.description"
     },
@@ -34,7 +33,7 @@
       "item": "minecraft:warped_fungus_on_a_stick",
       "nbt": "{Damage:0}"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.nether.ride_strider.title"
     }

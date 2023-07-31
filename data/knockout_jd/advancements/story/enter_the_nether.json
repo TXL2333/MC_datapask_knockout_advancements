@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:story/form_obsidian",
+  "parent": "knockout_jd:story/form_obsidian",
   "criteria": {
     "entered_nether": {
       "conditions": {
@@ -9,7 +9,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.story.enter_the_nether.description"
     },
@@ -19,7 +18,7 @@
       "item": "minecraft:flint_and_steel",
       "nbt": "{Damage:0}"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.story.enter_the_nether.title"
     }

@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:nether/find_fortress",
+  "parent": "knockout_jd:nether/find_fortress",
   "criteria": {
     "blaze_rod": {
       "conditions": {
@@ -15,7 +15,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.nether.obtain_blaze_rod.description"
     },
@@ -24,7 +23,7 @@
     "icon": {
       "item": "minecraft:blaze_rod"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.nether.obtain_blaze_rod.title"
     }

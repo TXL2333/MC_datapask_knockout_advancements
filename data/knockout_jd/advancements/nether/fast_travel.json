@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:nether/root",
+  "parent": "knockout_jd:nether/root",
   "criteria": {
     "travelled": {
       "conditions": {
@@ -13,7 +13,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.nether.fast_travel.description"
     },
@@ -22,7 +21,7 @@
     "icon": {
       "item": "minecraft:map"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.nether.fast_travel.title"
     }

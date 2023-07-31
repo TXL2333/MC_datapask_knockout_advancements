@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:story/smelt_iron",
+  "parent": "knockout_jd:story/smelt_iron",
   "criteria": {
     "lava_bucket": {
       "conditions": {
@@ -15,7 +15,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.story.lava_bucket.description"
     },
@@ -24,7 +23,7 @@
     "icon": {
       "item": "minecraft:lava_bucket"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.story.lava_bucket.title"
     }

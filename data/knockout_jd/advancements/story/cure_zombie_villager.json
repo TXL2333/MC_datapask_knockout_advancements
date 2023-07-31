@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:story/enter_the_nether",
+  "parent": "knockout_jd:story/enter_the_nether",
   "criteria": {
     "cured_zombie": {
       "conditions": {},
@@ -7,7 +7,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.story.cure_zombie_villager.description"
     },
@@ -16,7 +15,7 @@
     "icon": {
       "item": "minecraft:golden_apple"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.story.cure_zombie_villager.title"
     }

@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:nether/root",
+  "parent": "knockout_jd:nether/root",
   "criteria": {
     "crying_obsidian": {
       "conditions": {
@@ -15,7 +15,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.nether.obtain_crying_obsidian.description"
     },
@@ -24,7 +23,7 @@
     "icon": {
       "item": "minecraft:crying_obsidian"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.nether.obtain_crying_obsidian.title"
     }

@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:nether/root",
+  "parent": "knockout_jd:nether/root",
   "criteria": {
     "fortress": {
       "conditions": {
@@ -19,7 +19,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.nether.find_fortress.description"
     },
@@ -28,7 +27,7 @@
     "icon": {
       "item": "minecraft:nether_bricks"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.nether.find_fortress.title"
     }

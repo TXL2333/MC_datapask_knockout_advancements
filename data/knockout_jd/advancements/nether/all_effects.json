@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:nether/all_potions",
+  "parent": "knockout_jd:nether/all_potions",
   "criteria": {
     "all_effects": {
       "conditions": {
@@ -37,7 +37,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.nether.all_effects.description"
     },
@@ -46,7 +45,7 @@
     "icon": {
       "item": "minecraft:bucket"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.nether.all_effects.title"
     }

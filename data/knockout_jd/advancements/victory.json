@@ -8,7 +8,7 @@
          "frame":"challenge",
          "hidden": true
      },
-     "parent":"minecraft:adventure/root",
+     "parent":"knockout_jd:root",
      "criteria": {
             "1":{"trigger": "minecraft:impossible"}
      }

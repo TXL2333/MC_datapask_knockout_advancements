@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:story/smelt_iron",
+  "parent": "knockout_jd:story/smelt_iron",
   "criteria": {
     "iron_pickaxe": {
       "conditions": {
@@ -15,7 +15,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.story.iron_tools.description"
     },
@@ -25,7 +24,7 @@
       "item": "minecraft:iron_pickaxe",
       "nbt": "{Damage:0}"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.story.iron_tools.title"
     }

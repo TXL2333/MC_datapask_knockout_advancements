@@ -15,7 +15,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.story.form_obsidian.description"
     },
@@ -24,7 +23,7 @@
     "icon": {
       "item": "minecraft:obsidian"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.story.form_obsidian.title"
     }

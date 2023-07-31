@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:nether/create_beacon",
+  "parent": "knockout_jd:nether/create_beacon",
   "criteria": {
     "beacon": {
       "conditions": {
@@ -9,7 +9,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.nether.create_full_beacon.description"
     },
@@ -18,7 +17,7 @@
     "icon": {
       "item": "minecraft:beacon"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.nether.create_full_beacon.title"
     }
