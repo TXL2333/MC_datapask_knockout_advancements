@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:husbandry/root",
+  "parent": "knockout_jd:husbandry/root",
   "criteria": {
     "cod": {
       "conditions": {
@@ -43,7 +43,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.husbandry.fishy_business.description"
     },
@@ -53,7 +52,7 @@
       "item": "minecraft:fishing_rod",
       "nbt": "{Damage:0}"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.husbandry.fishy_business.title"
     }

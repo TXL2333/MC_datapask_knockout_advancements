@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:husbandry/root",
+  "parent": "knockout_jd:husbandry/root",
   "criteria": {
     "safely_harvest_honey": {
       "conditions": {
@@ -19,7 +19,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.husbandry.safely_harvest_honey.description"
     },
@@ -28,7 +27,7 @@
     "icon": {
       "item": "minecraft:honey_bottle"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.husbandry.safely_harvest_honey.title"
     }

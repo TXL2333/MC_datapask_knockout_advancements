@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:husbandry/tadpole_in_a_bucket",
+  "parent": "knockout_jd:husbandry/tadpole_in_a_bucket",
   "criteria": {
     "minecraft:cold": {
       "conditions": {
@@ -72,7 +72,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.husbandry.leash_all_frog_variants.description"
     },
@@ -81,7 +80,7 @@
     "icon": {
       "item": "minecraft:lead"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.husbandry.leash_all_frog_variants.title"
     }

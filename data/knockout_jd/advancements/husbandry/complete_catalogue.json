@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:husbandry/tame_an_animal",
+  "parent": "knockout_jd:husbandry/tame_an_animal",
   "criteria": {
     "minecraft:all_black": {
       "conditions": {
@@ -190,7 +190,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.husbandry.complete_catalogue.description"
     },
@@ -199,7 +198,7 @@
     "icon": {
       "item": "minecraft:cod"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.husbandry.complete_catalogue.title"
     }

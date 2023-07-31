@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:husbandry/breed_an_animal",
+  "parent": "knockout_jd:husbandry/breed_an_animal",
   "criteria": {
     "minecraft:axolotl": {
       "conditions": {
@@ -329,7 +329,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.husbandry.breed_all_animals.description"
     },
@@ -338,7 +337,7 @@
     "icon": {
       "item": "minecraft:golden_carrot"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.husbandry.breed_all_animals.title"
     }

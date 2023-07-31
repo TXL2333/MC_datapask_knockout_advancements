@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:husbandry/wax_on",
+  "parent": "knockout_jd:husbandry/wax_on",
   "criteria": {
     "wax_off": {
       "conditions": {
@@ -40,7 +40,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.husbandry.wax_off.description"
     },
@@ -50,7 +49,7 @@
       "item": "minecraft:stone_axe",
       "nbt": "{Damage:0}"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.husbandry.wax_off.title"
     }

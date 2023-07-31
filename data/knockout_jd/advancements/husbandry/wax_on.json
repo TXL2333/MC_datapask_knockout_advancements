@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:husbandry/safely_harvest_honey",
+  "parent": "knockout_jd:husbandry/safely_harvest_honey",
   "criteria": {
     "wax_on": {
       "conditions": {
@@ -35,7 +35,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.husbandry.wax_on.description"
     },
@@ -44,7 +43,7 @@
     "icon": {
       "item": "minecraft:honeycomb"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.husbandry.wax_on.title"
     }

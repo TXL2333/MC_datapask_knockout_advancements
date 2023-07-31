@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:husbandry/plant_seed",
+  "parent": "knockout_jd:husbandry/plant_seed",
   "criteria": {
     "apple": {
       "conditions": {
@@ -403,7 +403,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.husbandry.balanced_diet.description"
     },
@@ -412,7 +411,7 @@
     "icon": {
       "item": "minecraft:apple"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.husbandry.balanced_diet.title"
     }

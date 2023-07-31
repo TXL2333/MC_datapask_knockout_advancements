@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:husbandry/axolotl_in_a_bucket",
+  "parent": "knockout_jd:husbandry/axolotl_in_a_bucket",
   "criteria": {
     "kill_axolotl_target": {
       "conditions": {
@@ -17,7 +17,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.husbandry.kill_axolotl_target.description"
     },
@@ -26,7 +25,7 @@
     "icon": {
       "item": "minecraft:tropical_fish_bucket"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.husbandry.kill_axolotl_target.title"
     }

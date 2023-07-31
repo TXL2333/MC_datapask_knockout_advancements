@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:husbandry/root",
+  "parent": "knockout_jd:husbandry/root",
   "criteria": {
     "make_a_sign_glow": {
       "conditions": {
@@ -18,7 +18,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.husbandry.make_a_sign_glow.description"
     },
@@ -27,7 +26,7 @@
     "icon": {
       "item": "minecraft:glow_ink_sac"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.husbandry.make_a_sign_glow.title"
     }

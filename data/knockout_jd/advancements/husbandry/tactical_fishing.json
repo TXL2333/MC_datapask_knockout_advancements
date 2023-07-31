@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:husbandry/fishy_business",
+  "parent": "knockout_jd:husbandry/fishy_business",
   "criteria": {
     "cod_bucket": {
       "conditions": {
@@ -43,7 +43,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.husbandry.tactical_fishing.description"
     },
@@ -52,7 +51,7 @@
     "icon": {
       "item": "minecraft:pufferfish_bucket"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.husbandry.tactical_fishing.title"
     }

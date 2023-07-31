@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:husbandry/root",
+  "parent": "knockout_jd:husbandry/root",
   "criteria": {
     "ride_a_boat_with_a_goat": {
       "conditions": {
@@ -22,7 +22,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.husbandry.ride_a_boat_with_a_goat.description"
     },
@@ -31,7 +30,7 @@
     "icon": {
       "item": "minecraft:oak_boat"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.husbandry.ride_a_boat_with_a_goat.title"
     }

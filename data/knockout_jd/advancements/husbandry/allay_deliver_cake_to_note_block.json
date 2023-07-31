@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:husbandry/allay_deliver_item_to_player",
+  "parent": "knockout_jd:husbandry/allay_deliver_item_to_player",
   "criteria": {
     "allay_deliver_cake_to_note_block": {
       "conditions": {
@@ -20,7 +20,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.husbandry.allay_deliver_cake_to_note_block.description"
     },
@@ -29,7 +28,7 @@
     "icon": {
       "item": "minecraft:note_block"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.husbandry.allay_deliver_cake_to_note_block.title"
     }
