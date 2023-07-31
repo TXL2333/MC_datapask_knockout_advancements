@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:end/kill_dragon",
+  "parent": "knockout_jd:end/kill_dragon",
   "criteria": {
     "summoned_dragon": {
       "conditions": {
@@ -17,7 +17,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.end.respawn_dragon.description"
     },
@@ -26,7 +25,7 @@
     "icon": {
       "item": "minecraft:end_crystal"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.end.respawn_dragon.title"
     }

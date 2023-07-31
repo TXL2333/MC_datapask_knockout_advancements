@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:end/find_end_city",
+  "parent": "knockout_jd:end/find_end_city",
   "criteria": {
     "levitated": {
       "conditions": {
@@ -13,7 +13,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.end.levitate.description"
     },
@@ -22,7 +21,7 @@
     "icon": {
       "item": "minecraft:shulker_shell"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.end.levitate.title"
     }

@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:end/root",
+  "parent": "knockout_jd:end/root",
   "criteria": {
     "killed_dragon": {
       "conditions": {
@@ -17,7 +17,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.end.kill_dragon.description"
     },
@@ -26,7 +25,7 @@
     "icon": {
       "item": "minecraft:dragon_head"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.end.kill_dragon.title"
     }

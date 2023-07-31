@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:end/kill_dragon",
+  "parent": "knockout_jd:end/kill_dragon",
   "criteria": {
     "dragon_breath": {
       "conditions": {
@@ -15,7 +15,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.end.dragon_breath.description"
     },
@@ -24,7 +23,7 @@
     "icon": {
       "item": "minecraft:dragon_breath"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.end.dragon_breath.title"
     }

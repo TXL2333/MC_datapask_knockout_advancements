@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:end/enter_end_gateway",
+  "parent": "knockout_jd:end/enter_end_gateway",
   "criteria": {
     "in_city": {
       "conditions": {
@@ -19,7 +19,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.end.find_end_city.description"
     },
@@ -28,7 +27,7 @@
     "icon": {
       "item": "minecraft:purpur_block"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.end.find_end_city.title"
     }

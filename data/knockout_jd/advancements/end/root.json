@@ -1,4 +1,5 @@
 {
+  "parent":"knockout_jd:root",
   "criteria": {
     "entered_end": {
       "conditions": {
@@ -9,7 +10,6 @@
   },
   "display": {
     "announce_to_chat": false,
-    "background": "minecraft:textures/gui/advancements/backgrounds/end.png",
     "description": {
       "translate": "advancements.end.root.description"
     },

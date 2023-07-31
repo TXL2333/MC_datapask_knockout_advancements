@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:end/find_end_city",
+  "parent": "knockout_jd:end/find_end_city",
   "criteria": {
     "elytra": {
       "conditions": {
@@ -15,7 +15,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.end.elytra.description"
     },
@@ -25,7 +24,7 @@
       "item": "minecraft:elytra",
       "nbt": "{Damage:0}"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.end.elytra.title"
     }
