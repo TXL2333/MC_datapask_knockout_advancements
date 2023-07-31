@@ -10,7 +10,7 @@ Minecraft 数据包 ”进度淘汰赛 knockout advancements“.
 
 
 #### 使用说明
-[!]  当所有玩家加入游戏后需要执行一次 <strong>/reload</strong>  指令以获取操作书。
+[!]  当所有玩家加入游戏后需要执行一次 <strong>/reload</strong>  指令以获取操作书。<br>
 After all players join the game, the game needs to run the strong>/reload</strong> command once.
 
 <p align="center"><a href="https://www.mcmod.cn/class/8599.html"><img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest/scale-to-width-down/150?cb=20200607054225" alt="MC百科链接"></a>
