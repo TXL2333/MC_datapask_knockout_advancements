@@ -33,6 +33,4 @@ execute as @s[team=light_purple] run tellraw @a [{"text": "粉-","bold":true,"co
 tellraw @a {"text":"---------------------------------------------------","color": "yellow"}
 tellraw @a [{"text":"▶【 重载数据包 】","clickEvent": {"action":"run_command","value":"/function knockout_jd:root/reload"},"bold": true,"color": "yellow"}]
 tellraw @a [{"text": "==============================================","bold": true,"color": "yellow"}]
-#                                                                               v1.2
-#                                                                    ——————233333333333333
 #=========================================================================================
