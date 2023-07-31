@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:adventure/root",
+  "parent": "knockout_jd:adventure/root",
   "criteria": {
     "honey_block_slide": {
       "conditions": {
@@ -9,7 +9,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.adventure.honey_block_slide.description"
     },
@@ -18,7 +17,8 @@
     "icon": {
       "item": "minecraft:honey_block"
     },
-    "show_toast": true,
+    "announce_to_chat": false,
+"show_toast": false,
     "title": {
       "translate": "advancements.adventure.honey_block_slide.title"
     }

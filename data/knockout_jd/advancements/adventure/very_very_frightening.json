@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:adventure/throw_trident",
+  "parent": "knockout_jd:adventure/throw_trident",
   "criteria": {
     "struck_villager": {
       "conditions": {
@@ -19,7 +19,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.adventure.very_very_frightening.description"
     },
@@ -29,7 +28,7 @@
       "item": "minecraft:trident",
       "nbt": "{Damage:0}"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.adventure.very_very_frightening.title"
     }

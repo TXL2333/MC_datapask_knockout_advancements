@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:adventure/root",
+  "parent": "knockout_jd:adventure/root",
   "criteria": {
     "fall_from_world_height": {
       "conditions": {
@@ -35,7 +35,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.adventure.fall_from_world_height.description"
     },
@@ -44,7 +43,8 @@
     "icon": {
       "item": "minecraft:water_bucket"
     },
-    "show_toast": true,
+    "announce_to_chat": false,
+"show_toast": false,
     "title": {
       "translate": "advancements.adventure.fall_from_world_height.title"
     }

@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:adventure/root",
+  "parent": "knockout_jd:adventure/root",
   "criteria": {
     "shot_crossbow": {
       "conditions": {
@@ -13,7 +13,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.adventure.ol_betsy.description"
     },
@@ -23,7 +22,8 @@
       "item": "minecraft:crossbow",
       "nbt": "{Damage:0}"
     },
-    "show_toast": true,
+    "announce_to_chat": false,
+"show_toast": false,
     "title": {
       "translate": "advancements.adventure.ol_betsy.title"
     }

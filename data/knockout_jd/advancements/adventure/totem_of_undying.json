@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:adventure/kill_a_mob",
+  "parent": "knockout_jd:adventure/kill_a_mob",
   "criteria": {
     "used_totem": {
       "conditions": {
@@ -13,7 +13,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.adventure.totem_of_undying.description"
     },
@@ -22,7 +21,7 @@
     "icon": {
       "item": "minecraft:totem_of_undying"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.adventure.totem_of_undying.title"
     }

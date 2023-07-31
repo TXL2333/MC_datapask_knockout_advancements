@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:adventure/root",
+  "parent": "knockout_jd:adventure/root",
   "criteria": {
     "minecraft:blaze": {
       "conditions": {
@@ -479,7 +479,7 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
+
     "description": {
       "translate": "advancements.adventure.kill_a_mob.description"
     },
@@ -489,7 +489,8 @@
       "item": "minecraft:iron_sword",
       "nbt": "{Damage:0}"
     },
-    "show_toast": true,
+    "announce_to_chat": false,
+"show_toast": false,
     "title": {
       "translate": "advancements.adventure.kill_a_mob.title"
     }

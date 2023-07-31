@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:adventure/root",
+  "parent": "knockout_jd:adventure/root",
   "criteria": {
     "spyglass_at_parrot": {
       "conditions": {
@@ -27,7 +27,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.adventure.spyglass_at_parrot.description"
     },
@@ -36,7 +35,7 @@
     "icon": {
       "item": "minecraft:spyglass"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.adventure.spyglass_at_parrot.title"
     }

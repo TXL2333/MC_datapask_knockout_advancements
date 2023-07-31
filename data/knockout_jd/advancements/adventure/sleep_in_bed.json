@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:adventure/root",
+  "parent": "knockout_jd:adventure/root",
   "criteria": {
     "slept_in_bed": {
       "conditions": {},
@@ -7,7 +7,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.adventure.sleep_in_bed.description"
     },
@@ -16,7 +15,7 @@
     "icon": {
       "item": "minecraft:red_bed"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.adventure.sleep_in_bed.title"
     }

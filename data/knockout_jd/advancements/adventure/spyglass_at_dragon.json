@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:adventure/spyglass_at_ghast",
+  "parent": "knockout_jd:adventure/spyglass_at_ghast",
   "criteria": {
     "spyglass_at_dragon": {
       "conditions": {
@@ -27,7 +27,7 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
+
     "description": {
       "translate": "advancements.adventure.spyglass_at_dragon.description"
     },
@@ -36,7 +36,7 @@
     "icon": {
       "item": "minecraft:spyglass"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.adventure.spyglass_at_dragon.title"
     }

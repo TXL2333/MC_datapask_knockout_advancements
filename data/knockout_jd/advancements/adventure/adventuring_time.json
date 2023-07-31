@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:adventure/sleep_in_bed",
+  "parent": "knockout_jd:adventure/sleep_in_bed",
   "criteria": {
     "minecraft:badlands": {
       "conditions": {
@@ -835,7 +835,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.adventure.adventuring_time.description"
     },
@@ -845,7 +844,8 @@
       "item": "minecraft:diamond_boots",
       "nbt": "{Damage:0}"
     },
-    "show_toast": true,
+            "announce_to_chat": false,
+        "show_toast": false,
     "title": {
       "translate": "advancements.adventure.adventuring_time.title"
     }

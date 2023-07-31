@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:adventure/root",
+  "parent": "knockout_jd:adventure/root",
   "criteria": {
     "traded": {
       "conditions": {},
@@ -7,7 +7,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.adventure.trade.description"
     },
@@ -16,7 +15,7 @@
     "icon": {
       "item": "minecraft:emerald"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.adventure.trade.title"
     }

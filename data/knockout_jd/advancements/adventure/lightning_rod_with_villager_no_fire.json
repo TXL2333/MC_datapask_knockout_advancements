@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:adventure/root",
+  "parent": "knockout_jd:adventure/root",
   "criteria": {
     "lightning_rod_with_villager_no_fire": {
       "conditions": {
@@ -34,7 +34,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.adventure.lightning_rod_with_villager_no_fire.description"
     },
@@ -43,7 +42,8 @@
     "icon": {
       "item": "minecraft:lightning_rod"
     },
-    "show_toast": true,
+    "announce_to_chat": false,
+"show_toast": false,
     "title": {
       "translate": "advancements.adventure.lightning_rod_with_villager_no_fire.title"
     }

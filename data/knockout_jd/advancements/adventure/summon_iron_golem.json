@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:adventure/trade",
+  "parent": "knockout_jd:adventure/trade",
   "criteria": {
     "summoned_golem": {
       "conditions": {
@@ -17,7 +17,6 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.adventure.summon_iron_golem.description"
     },
@@ -26,7 +25,7 @@
     "icon": {
       "item": "minecraft:carved_pumpkin"
     },
-    "show_toast": true,
+    "announce_to_chat": false,"show_toast": false,
     "title": {
       "translate": "advancements.adventure.summon_iron_golem.title"
     }

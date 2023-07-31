@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:adventure/shoot_arrow",
+  "parent": "knockout_jd:adventure/shoot_arrow",
   "criteria": {
     "bullseye": {
       "conditions": {
@@ -22,7 +22,7 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
+
     "description": {
       "translate": "advancements.adventure.bullseye.description"
     },
@@ -31,7 +31,8 @@
     "icon": {
       "item": "minecraft:target"
     },
-    "show_toast": true,
+    "announce_to_chat": false,
+    "show_toast": false,
     "title": {
       "translate": "advancements.adventure.bullseye.title"
     }
