@@ -8,12 +8,23 @@ Minecraft 数据包 ”进度淘汰赛 knockout advancements“.
 支持的Minecraft JE游戏版本：1.19.x;
 命名空间ID：knockout_jd
 
+
+#### 使用说明
+<style>  
+.command {  
+    color: yellow;  
+    font-weight: bold;  
+}  
+</style>
+[!]  当所有玩家加入游戏后需要执行一次 <span class="command">/reload</span>  指令以获取操作书。
+<p>After all players join the game, the game needs to run the <span class="command">/reload</span> command once.</p>
+
+<p align="center"><a href="https://www.mcmod.cn/class/8599.html"><img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest/scale-to-width-down/150?cb=20200607054225" alt="MC百科链接"></a>
+
+
 #### 安装教程
 <p align="center"><a href="https://minecraft.fandom.com/zh/wiki/%E6%95%99%E7%A8%8B/%E5%AE%89%E8%A3%85%E6%95%B0%E6%8D%AE%E5%8C%85"><img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/b/b3/Compass_JE3_BE3.gif/revision/latest/scale-to-width-down/150?cb=20201126025754"" alt="数据包安装教程（来自中文Minecraft Wiki）"></a>
  
-#### 使用说明
-[!]  所有玩家进入游戏后需要执行指令 /reload 以获取操作书.
-<p align="center"><a href="https://www.mcmod.cn/class/8599.html"><img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest/scale-to-width-down/150?cb=20200607054225" alt="MC百科链接"></a>
 
 #### 参与贡献
 1.  新建 Feat_xxx 分支
