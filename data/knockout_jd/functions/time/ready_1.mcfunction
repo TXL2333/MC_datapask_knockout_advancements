@@ -24,6 +24,7 @@ scoreboard objectives remove initialization
     scoreboard players set #i Round 1
     advancement revoke @a everything
     say 进度已重置
+    advancement grant @a only knockout_jd:root
     tag @a remove out
     execute as @a[team=!,gamemode=!survival] run gamemode survival @s
 function knockout_jd:time/ready_2
